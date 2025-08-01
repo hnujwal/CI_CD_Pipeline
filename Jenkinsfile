@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/hnujwal/CI_CD_Pipeline/edit/main/Jenkinsfile'
+                git branch: 'main', url: 'https://github.com/hnujwal/CI_CD_Pipeline.git'
             }
         }
         stage('Build') {
